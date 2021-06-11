@@ -19,7 +19,28 @@ public class Insercion {
     }
 
     public void ordenInsercion(int[] array){
-        
+        int selec = 0;
+        int pos = 0;
+
+        int operaciones = 0;
+        int intercambio = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            selec = array[i];
+            pos = i;
+
+            for (int j = i+1; j < array.length; j++) {
+                if (selec > array[j]){
+                    selec = array[j];
+                    pos = j;
+                }
+                operaciones++;
+            }
+            array[pos] = array[i];
+            array[i] = selec;
+            intercambio++;
+        }
+        System.out.println("Operaciones: "+operaciones + " Intercambios "+intercambio);
 
     }
 
