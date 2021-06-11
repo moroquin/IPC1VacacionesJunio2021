@@ -43,7 +43,7 @@ public class Burbuja {
             }
         }
 
-        System.out.println("Operaciones: "+operaciones + " Intercambios"+intercambio);
+        System.out.println("Operaciones: "+operaciones + " Intercambios "+intercambio);
     }
 
     public void imprimirMatriz(int[] array){
