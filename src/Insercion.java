@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Insercion {
     public static void main(String[] args) {
-        Burbuja b = new Burbuja();
+        Insercion b = new Insercion();
     }
 
     public Insercion() {
@@ -36,9 +36,12 @@ public class Insercion {
                 }
                 operaciones++;
             }
+
+
             array[pos] = array[i];
             array[i] = selec;
             intercambio++;
+            
         }
         System.out.println("Operaciones: "+operaciones + " Intercambios "+intercambio);
 
