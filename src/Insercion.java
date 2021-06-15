@@ -47,9 +47,15 @@ public class Insercion {
 
     }
 
+    
+
     public void imprimirMatriz(int[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.println("Posición " + i + ": " + array[i]);
+        }
+        int num[]=new int[10];
+        for(int i=0;i<num.length;i=i+2){
+            num[i]=i;
         }
     }
 }
