@@ -1,14 +1,21 @@
-package src;
+package src.practica2;
 
-import java.util.Scanner;
+//import java.util.Scanner;
+import java.util.*;
+
+//clase desde ordenamiento
+import src.ejemplo.*;
+import src.ordenamiento.Ejemplo1;
 
 public class Practica2 {
     public static void main(String[] args){
+        Ejemplo2 a = new Ejemplo2();
+        src.ordenamiento.Ejemplo1 t = new src.ordenamiento.Ejemplo1();
         Practica2 p = new Practica2();
     }
 
     //variables de instancia globales
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new java.util.Scanner(System.in);
 
     String[] clienteNombre = new String[50];
     int [][] clienteIdTelefono = new int[2][50];

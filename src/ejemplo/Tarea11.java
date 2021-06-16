@@ -1,4 +1,4 @@
-package src;
+package src.ejemplo;
 import java.util.*;
 
 public class Tarea11{

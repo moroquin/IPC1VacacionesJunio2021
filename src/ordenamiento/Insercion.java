@@ -1,4 +1,4 @@
-package src;
+package src.ordenamiento;
 
 import java.util.*;
 
